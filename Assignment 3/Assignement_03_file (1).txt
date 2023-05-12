@@ -1,0 +1,60 @@
+[1] "Gene 1 Results Report"
+
+	Paired t-test
+
+data:  Gene_condition and Gene_control
+t = 0.29887, df = 999, p-value = 0.7651
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.07510622  0.10209420
+sample estimates:
+mean difference 
+     0.01349399 
+
+[1] "Gene 2 Results Report"
+
+	Two Sample t-test
+
+data:  Gene_control and Gene_condition
+t = 93.137, df = 1998, p-value < 2.2e-16
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 1.979405      Inf
+sample estimates:
+mean of x mean of y 
+ 3.986658  1.971651 
+
+[1] "Gene 3 Results Report"
+
+	Welch Two Sample t-test
+
+data:  Gene_control and Gene_condition
+t = -39.009, df = 1231.3, p-value = 1
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -2.020637       Inf
+sample estimates:
+ mean of x  mean of y 
+0.08724951 2.02607236 
+
+[1] "Gene 4 Results Report"
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  Gene_control and Gene_condition
+W = 311547, p-value < 2.2e-16
+alternative hypothesis: true location shift is not equal to 0
+
+[1] "Gene 4 Results Report on control values"
+
+	One Sample t-test
+
+data:  Gene_control
+t = -5.8551, df = 999, p-value = 6.464e-09
+alternative hypothesis: true mean is not equal to 0.2
+95 percent confidence interval:
+ -0.04511409  0.07794409
+sample estimates:
+mean of x 
+ 0.016415 
+
