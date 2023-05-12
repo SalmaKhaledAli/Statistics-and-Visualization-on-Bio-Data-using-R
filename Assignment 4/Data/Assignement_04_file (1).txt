@@ -1,0 +1,8 @@
+[1] "The number of the p_values before any correction."
+[1] 100
+[1] "The number of significant p_values before any correction."
+[1] 57
+[1] "The number of significant p_values after applying the Bonferroni method."
+[1] 18
+[1] "The number of the significant p_values after applying the FDR method."
+[1] 40
